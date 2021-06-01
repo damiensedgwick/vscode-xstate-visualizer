@@ -8,7 +8,7 @@ Describe specific features of your extension including screenshots of your exten
 
 For example if there is an image subfolder under your extension project workspace:
 
-![XState Visualizer](https://github.com/damiensedgwick/vscode-xstate-visualizer/src/assets/xstate-visualizer.gif)
+![](https://github.com/damiensedgwick/vscode-xstate-visualizer/blob/main/src/assets/xstate-visualizer.gif | width=100)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
