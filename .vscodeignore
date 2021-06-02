@@ -1,6 +1,7 @@
 .vscode
 node_modules
 out/
+dist/
 src/
 tsconfig.json
 webpack.config.js

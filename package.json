@@ -3,6 +3,7 @@
   "publisher": "dksedgwick",
   "displayName": "XStateViz",
   "description": "Visualise your state machines within vscode.",
+  "icon": "images/icon.png",
   "repository": {
     "url": "https://github.com/damiensedgwick/vscode-xstate-visualizer"
   },
