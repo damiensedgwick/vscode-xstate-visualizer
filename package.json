@@ -16,7 +16,7 @@
   "activationEvents": [
     "onCommand:xstateviz.visualizer"
   ],
-  "main": "./out/main.js",
+  "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
