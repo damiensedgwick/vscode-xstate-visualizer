@@ -18,8 +18,6 @@ Links in the header / nav are not clickable at the moment within the webview.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.2
 
 Updated extension package details
