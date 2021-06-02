@@ -6,7 +6,7 @@
   "repository": {
     "url": "https://github.com/damiensedgwick/vscode-xstate-visualizer"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.22.0"
   },
