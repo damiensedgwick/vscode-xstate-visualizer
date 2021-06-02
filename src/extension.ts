@@ -4,7 +4,7 @@ export function activate(context: vscode.ExtensionContext) {
   let currentPanel: vscode.WebviewPanel | undefined = undefined;
 
   context.subscriptions.push(
-    vscode.commands.registerCommand("xstateviz.visualizer", () => {
+    vscode.commands.registerCommand("visualizer", () => {
       const columnToShowIn = vscode.window.activeTextEditor
         ? vscode.window.activeTextEditor.viewColumn
         : undefined;

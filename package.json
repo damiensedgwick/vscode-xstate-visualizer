@@ -14,13 +14,13 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:xstateviz.visualizer"
+    "onCommand:visualizer"
   ],
-  "main": "./out/main.js",
+  "main": "./dist/main.js",
   "contributes": {
     "commands": [
       {
-        "command": "xstateviz.visualizer",
+        "command": "visualizer",
         "title": "XState Visualizer"
       }
     ]
