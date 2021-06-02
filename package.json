@@ -1,7 +1,11 @@
 {
   "name": "xstateviz",
+  "publisher": "dksedgwick",
   "displayName": "XStateViz",
   "description": "Visualise your state machines within vscode.",
+  "repository": {
+    "url": "https://github.com/damiensedgwick/vscode-xstate-visualizer"
+  },
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.56.0"
