@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
         currentPanel = vscode.window.createWebviewPanel(
           "xstateVisualizer",
           "XState Visualizer",
-          vscode.ViewColumn.One,
+          vscode.ViewColumn.Active,
           {
             enableScripts: true,
           }
