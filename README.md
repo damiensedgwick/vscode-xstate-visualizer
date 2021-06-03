@@ -16,21 +16,7 @@ Install the extension from the [Marketplace](https://marketplace.visualstudio.co
 
 Links in the header / nav are not clickable at the moment within the webview.
 
-Command 'visualizer' returns not found in production
-
 ## Release Notes
-
-### 1.0.3
-
-Added package graphics
-
-### 1.0.2
-
-Updated extension package details
-
-### 1.0.1
-
-Fixed command not found error
 
 ### 1.0.0
 
