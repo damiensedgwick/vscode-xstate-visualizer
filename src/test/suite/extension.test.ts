@@ -7,11 +7,11 @@ suite("Extension Test Suite", () => {
     assert.strictEqual(-1, [1, 2, 3].indexOf(0));
   });
 
-  test("Check 'Say Hello' command exists", () => {
-    const extension = vscode.extensions.getExtension(
-      "xstate-visualizer.sayHello"
-    )?.isActive;
+  test("Check 'Say Hello' command exists", async () => {
+    const commandExists = await vscode.commands
+      .getCommands()
+      .then((commands) => commands.includes("xstate-visualizer.sayHello"));
 
-    assert.strictEqual(extension, true);
+    assert.strictEqual(commandExists, true);
   });
 });
