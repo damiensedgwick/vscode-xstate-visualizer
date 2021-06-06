@@ -6,7 +6,7 @@ Easily view and build state machines with the [XState Visualizer](https://xstate
 
 Currently displays the XState Visualizer within a webview for vscode. State machines are interactive so that you can build / test your state machine from within vscode.
 
-![XState Visualizer](https://github.com/damiensedgwick/vscode-xstate-visualizer/blob/main/images/xstate-viz.png)
+![XState Visualizer](https://github.com/damiensedgwick/vscode-xstate-visualizer/blob/main/images/xstate-viz.png?raw=true "Xstate Visualizer")
 
 ## Requirements
 
@@ -20,4 +20,4 @@ Links in the header / nav are not clickable at the moment within the webview.
 
 ### 1.0.0
 
-Initial release of vscode xstate visualizer
+- Initial release of vscode xstate visualizer
