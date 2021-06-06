@@ -16,14 +16,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:xstviz.helloWorld"
+    "onCommand:xstviz.visualizer"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "xstviz.helloWorld",
-        "title": "Xstate Visualizer"
+        "command": "xstviz.visualizer",
+        "title": "Visualizer"
       }
     ]
   },
