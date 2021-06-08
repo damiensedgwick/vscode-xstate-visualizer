@@ -18,6 +18,4 @@ Links in the header / nav are not clickable at the moment within the webview.
 
 ## Release Notes
 
-### 1.0.0
-
-- Initial release of vscode xstate visualizer
+All release notes can be found here: [Change Log](https://github.com/damiensedgwick/vscode-xstate-visualizer/blob/main/CHANGELOG.md)
