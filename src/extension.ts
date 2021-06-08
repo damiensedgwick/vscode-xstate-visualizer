@@ -8,7 +8,7 @@ export function activate(context: vscode.ExtensionContext) {
       "visualizer",
       "Xstate Visualizer",
       vscode.ViewColumn.One,
-      { enableScripts: true }
+      { enableScripts: true, retainContextWhenHidden: true }
     );
 
     panel.webview.html = getWebviewContent();
