@@ -7,6 +7,7 @@ export const getWebviewContent = () => {
                   <meta name="viewport" content="width=device-width, initial-scale=1.0">
                   <title>XState Visualizer</title>
                   <style>
+                  
                   * {
                       
                   }
@@ -19,10 +20,12 @@ export const getWebviewContent = () => {
                       width: calc(100vw - 10px);
                       margin: auto;
                   }
+                  
                   .iframe-wrapper {
                       height: 100%;
                       width: 100%;
                   }
+
                   .iframe {
                       height: 100%;
                       width: 100%;
