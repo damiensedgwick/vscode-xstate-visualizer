@@ -16,6 +16,8 @@ Install the extension from the [Marketplace](https://marketplace.visualstudio.co
 
 Links in the header / nav are not clickable at the moment within the webview.
 
+Copy / Pasta and other keyboard shortcuts do not currently work as the visualizer is an iframe inside of a webview.
+
 ## Release Notes
 
 All release notes can be found here: [Change Log](https://github.com/damiensedgwick/vscode-xstate-visualizer/blob/main/CHANGELOG.md)
