@@ -1,6 +1,6 @@
 {
   "name": "xstviz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "xstate-visualizer",
   "description": "Visualize your state machines from inside vscode.",
   "publisher": "dksedgwick",
