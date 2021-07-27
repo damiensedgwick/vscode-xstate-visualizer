@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.2]
 
-- Changed command palatte title so it is clearer to the user.
+- Changed command pallet title so it is clearer to the user.
 - Updated README to include "Usage".
 
 ## [1.0.1]

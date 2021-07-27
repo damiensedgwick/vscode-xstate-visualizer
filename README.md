@@ -14,7 +14,7 @@ Install the extension from the [Marketplace](https://marketplace.visualstudio.co
 
 ## Usage
 
-Press `cmd + shift + p` to open up your command palette and start typing xstate or visualiser and the extension will be presented as `XState: Open Visualiser`. Select this option to open the visualiser within vscode.
+Press `cmd + shift + p` to open up your command pallet and start typing xstate or visualiser and the extension will be presented as `XState: Open Visualiser`. Select this option to open the visualiser within vscode.
 
 Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=dksedgwick.xstateviz).
 
