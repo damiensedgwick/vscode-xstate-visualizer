@@ -12,6 +12,12 @@ Currently displays the XState Visualizer within a webview for vscode. State mach
 
 Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=dksedgwick.xstateviz).
 
+## Usage
+
+Press `cmd + shift + p` to open up your command palette and start typing xstate or visualiser and the extension will be presented as `XState: Open Visualiser`. Select this option to open the visualiser within vscode.
+
+Install the extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=dksedgwick.xstateviz).
+
 ## Known Issues
 
 Links in the header / nav are not clickable at the moment within the webview.

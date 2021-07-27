@@ -23,7 +23,7 @@
     "commands": [
       {
         "command": "xstviz.visualizer",
-        "title": "Visualizer"
+        "title": "XState: Open Visualizer"
       }
     ]
   },
