@@ -37,7 +37,7 @@ export const getWebviewContent = () => {
               <body>
                   
                   <div class="iframe-wrapper">
-                      <iframe class="iframe" src="https://xstate.js.org/viz/" title="XState Visualizer Iframe">
+                      <iframe class="iframe" src="https://stately.ai/viz" title="XState Visualizer Iframe">
                   </div>
               </body>
           </html>

@@ -20,9 +20,9 @@ Install the extension from the [Marketplace](https://marketplace.visualstudio.co
 
 ## Known Issues
 
-Links in the header / nav are not clickable at the moment within the webview.
-
 Copy / Pasta and other keyboard shortcuts do not currently work as the visualizer is an iframe inside of a webview.
+
+Logging in does not work from within VSCODE.
 
 ## Release Notes
 
