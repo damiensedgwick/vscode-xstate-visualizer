@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.3]
 
+- Added logic to prevent more than one XState Visualiser tab being open at once.
+
+## [1.0.3]
+
 - Updated iframe URL to use the new [Stately Visualiser](https://stately.ai/viz).
 
 ## [1.0.2]

@@ -20,9 +20,9 @@ Install the extension from the [Marketplace](https://marketplace.visualstudio.co
 
 ## Known Issues
 
-Copy / Pasta and other keyboard shortcuts do not currently work as the visualizer is an iframe inside of a webview.
+Copy / Pasta and other keyboard shortcuts do not currently work. You can however `right click + copy` and `right click + paste`
 
-Logging in does not work from within VSCODE.
+Logging in does not work from within VSCODE at the minute meaning you cannot access stored machines.
 
 ## Release Notes
 
