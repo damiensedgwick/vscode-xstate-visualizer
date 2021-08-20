@@ -1,4 +1,5 @@
 import * as vscode from "vscode";
+import * as path from "path";
 
 import { getWebviewContent } from "./WebviewContent";
 
@@ -15,10 +16,13 @@ export function activate(context: vscode.ExtensionContext) {
           "visualizer",
           "Xstate Visualizer",
           vscode.ViewColumn.One,
-          { enableScripts: true, retainContextWhenHidden: true }
+          {
+            enableScripts: true,
+            retainContextWhenHidden: true,
+          }
         );
 
-        currentPanel.webview.html = getWebviewContent();
+        currentPanel.webview.html = getWebviewContent(context.extensionPath);
 
         // Handle disposing the current XState Visualizer
         currentPanel.onDidDispose(
