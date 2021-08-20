@@ -28,7 +28,7 @@
     ]
   },
   "scripts": {
-    "build": "esbuild src/app/app.tsx src/WebviewContent.ts src/extension.ts --outdir=out",
+    "build": "esbuild src/app/app.tsx src/WebviewContent.ts src/extension.ts --bundle --platform=node --external:vscode --outdir=out",
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
