@@ -7,6 +7,10 @@ export function activate(context: vscode.ExtensionContext) {
   // Only allow a XState Visualiser
   let currentPanel: vscode.WebviewPanel | undefined = undefined;
 
+  const reactAppPathOnDisk = vscode.Uri.file(
+    path.join(context.extensionPath, "out", "app", "app.js")
+  );
+
   context.subscriptions.push(
     vscode.commands.registerCommand("xstviz.visualizer", () => {
       if (currentPanel) {
@@ -22,7 +26,9 @@ export function activate(context: vscode.ExtensionContext) {
           }
         );
 
-        currentPanel.webview.html = getWebviewContent(context.extensionPath);
+        const srcUri = currentPanel.webview.asWebviewUri(reactAppPathOnDisk);
+
+        currentPanel.webview.html = getWebviewContent(srcUri);
 
         // Handle disposing the current XState Visualizer
         currentPanel.onDidDispose(

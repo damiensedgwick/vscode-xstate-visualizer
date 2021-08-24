@@ -1,16 +1,6 @@
 import * as vscode from "vscode";
-import * as path from "path";
 
-export const getWebviewContent = (extensionPath: string) => {
-  const reactAppPathOnDisk = vscode.Uri.file(
-    path.join(extensionPath, "app.js") // FIGURE THE CORRECT PATH OUT
-  );
-
-  const reactAppUri = reactAppPathOnDisk.with({ scheme: "vscode-resource" });
-
-  console.log(reactAppPathOnDisk);
-  console.log(reactAppUri);
-
+export const getWebviewContent = (srcUri: vscode.Uri) => {
   return `
             <!DOCTYPE html>
                 <html lang="en">
@@ -28,7 +18,7 @@ export const getWebviewContent = (extensionPath: string) => {
                 <body>
                     <div id="root"></div>
 
-                    <script src="${reactAppUri}"></script>
+                    <script src="${srcUri}"></script>
                 </body>
             </html>
       `;
