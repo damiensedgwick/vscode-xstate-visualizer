@@ -61,7 +61,7 @@ const getWebviewContent = (srcUri: vscode.Uri) => {
                 <body>
                     <div id="root"></div>
 
-                    <script type="module" src="${srcUri}"></script>
+                    <script src="${srcUri}"></script>
                 </body>
             </html>
       `;

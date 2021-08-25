@@ -8,7 +8,8 @@
     "rootDir": "src",
     "strict": true,
     "jsx": "react-jsx",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "Node"
   },
   "exclude": ["node_modules", ".vscode-test"]
 }
