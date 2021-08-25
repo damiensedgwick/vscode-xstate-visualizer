@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "esnext",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["DOM", "ES5"],
     "outDir": "out",
-    "lib": ["esnext", "dom"],
     "sourceMap": true,
     "rootDir": "src",
     "strict": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "esModuleInterop": true
   },
   "exclude": ["node_modules", ".vscode-test"]
 }

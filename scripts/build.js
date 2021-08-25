@@ -1,14 +1,10 @@
 require("esbuild")
   .build({
-    entryPoints: [
-      "src/extension.ts",
-      "src/WebviewContent.ts",
-      "src/app/app.tsx",
-    ],
+    entryPoints: ["src/extension.ts", "src/app/src/index.tsx"],
     bundle: true,
     minify: true,
     outdir: "out",
-    target: "esnext",
+    target: ["es2020", "node14"],
     define: { process: "production" },
     platform: "node",
     external: ["vscode"],

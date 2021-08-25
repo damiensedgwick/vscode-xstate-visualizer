@@ -1,14 +1,12 @@
 import * as vscode from "vscode";
 import * as path from "path";
 
-import { getWebviewContent } from "./WebviewContent";
-
 export function activate(context: vscode.ExtensionContext) {
   // Only allow a XState Visualiser
   let currentPanel: vscode.WebviewPanel | undefined = undefined;
 
   const reactAppPathOnDisk = vscode.Uri.file(
-    path.join(context.extensionPath, "out", "app", "app.js")
+    path.join(context.extensionPath, "out", "app", "src", "index.js")
   );
 
   context.subscriptions.push(
@@ -44,3 +42,27 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 export function deactivate() {}
+
+const getWebviewContent = (srcUri: vscode.Uri) => {
+  return `
+            <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'" >
+                    <title>XState Visualizer</title>
+
+                    <script>
+                        window.acquireVsCodeApi = acquireVsCodeApi;
+                    </script>
+                </head>
+
+                <body>
+                    <div id="root"></div>
+
+                    <script type="module" src="${srcUri}"></script>
+                </body>
+            </html>
+      `;
+};
