@@ -5,7 +5,7 @@ require("esbuild")
     minify: true,
     outdir: "out",
     target: ["es2020", "node14"],
-    define: { process: "production" },
+    define: { "process.env.NODE_ENV": "'production'" },
     platform: "node",
     external: ["vscode"],
   })
