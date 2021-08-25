@@ -1,14 +1,20 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "CommonJS",
-    "lib": ["DOM", "ES5"],
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "outDir": "out",
-    "sourceMap": true,
-    "rootDir": "src",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "strict": true,
-    "jsx": "react-jsx",
-    "esModuleInterop": true
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
   "exclude": ["node_modules", ".vscode-test"]
 }
