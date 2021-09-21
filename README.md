@@ -1,4 +1,6 @@
-# vscode xstate visualizer
+# This extension is no longer under development.
+
+## vscode xstate visualizer
 
 Easily view and build state machines with the [XState Visualizer](https://xstate.js.org/viz/ "XState Viz") from within vscode.
 
